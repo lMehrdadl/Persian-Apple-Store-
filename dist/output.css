@@ -176,92 +176,17 @@
   .-top-1 {
     top: calc(var(--spacing) * -1);
   }
-  .-top-1\.5 {
-    top: calc(var(--spacing) * -1.5);
-  }
-  .-top-3 {
-    top: calc(var(--spacing) * -3);
-  }
   .-top-3\.5 {
     top: calc(var(--spacing) * -3.5);
-  }
-  .-top-4 {
-    top: calc(var(--spacing) * -4);
-  }
-  .-top-4\.5 {
-    top: calc(var(--spacing) * -4.5);
-  }
-  .-top-43 {
-    top: calc(var(--spacing) * -43);
-  }
-  .-top-43\.5 {
-    top: calc(var(--spacing) * -43.5);
   }
   .top-1 {
     top: calc(var(--spacing) * 1);
   }
-  .-right-2 {
-    right: calc(var(--spacing) * -2);
-  }
   .-right-3 {
     right: calc(var(--spacing) * -3);
   }
-  .-right-3\.5 {
-    right: calc(var(--spacing) * -3.5);
-  }
-  .right-0 {
-    right: calc(var(--spacing) * 0);
-  }
-  .right-2 {
-    right: calc(var(--spacing) * 2);
-  }
-  .right-3 {
-    right: calc(var(--spacing) * 3);
-  }
-  .right-3\.5 {
-    right: calc(var(--spacing) * 3.5);
-  }
-  .right-8 {
-    right: calc(var(--spacing) * 8);
-  }
-  .-left-1 {
-    left: calc(var(--spacing) * -1);
-  }
-  .-left-2 {
-    left: calc(var(--spacing) * -2);
-  }
-  .-left-2\.5 {
-    left: calc(var(--spacing) * -2.5);
-  }
-  .left-1 {
-    left: calc(var(--spacing) * 1);
-  }
   .left-3 {
     left: calc(var(--spacing) * 3);
-  }
-  .left-3\.5 {
-    left: calc(var(--spacing) * 3.5);
-  }
-  .left-4 {
-    left: calc(var(--spacing) * 4);
-  }
-  .left-4\.5 {
-    left: calc(var(--spacing) * 4.5);
-  }
-  .left-5 {
-    left: calc(var(--spacing) * 5);
-  }
-  .left-5\.5 {
-    left: calc(var(--spacing) * 5.5);
-  }
-  .left-7 {
-    left: calc(var(--spacing) * 7);
-  }
-  .left-8 {
-    left: calc(var(--spacing) * 8);
-  }
-  .left-8\.5 {
-    left: calc(var(--spacing) * 8.5);
   }
   .left-9 {
     left: calc(var(--spacing) * 9);
@@ -287,9 +212,6 @@
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
-  .ml-2 {
-    margin-left: calc(var(--spacing) * 2);
-  }
   .ml-2\.5 {
     margin-left: calc(var(--spacing) * 2.5);
   }
@@ -304,9 +226,6 @@
   }
   .inline-block {
     display: inline-block;
-  }
-  .table {
-    display: table;
   }
   .size-\[21px\] {
     width: 21px;
@@ -381,14 +300,8 @@
   .w-full {
     width: 100%;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
-  }
-  .resize {
-    resize: both;
   }
   .flex-col {
     flex-direction: column;
@@ -408,9 +321,6 @@
   .gap-1 {
     gap: calc(var(--spacing) * 1);
   }
-  .gap-2 {
-    gap: calc(var(--spacing) * 2);
-  }
   .gap-2\.5 {
     gap: calc(var(--spacing) * 2.5);
   }
@@ -425,10 +335,6 @@
   }
   .rounded-full {
     border-radius: calc(infinity * 1px);
-  }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
   }
   .border-\[\#E6E6E6\] {
     border-color: #E6E6E6;
@@ -463,8 +369,6 @@
   .font-yekan {
     font-family: var(--font-yekan);
   }
-<<<<<<< HEAD
-=======
   .text-\[8px\] {
     font-size: 8px;
   }
@@ -504,14 +408,6 @@
   }
   .text-white {
     color: var(--color-white);
-  }
->>>>>>> headings
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .placeholder\:pr-2\.5 {
     &::placeholder {
@@ -577,13 +473,6 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
-<<<<<<< HEAD
-=======
 @property --tw-leading {
   syntax: "*";
   inherits: false;
@@ -591,12 +480,6 @@
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
-}
->>>>>>> headings
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
 @property --tw-shadow {
   syntax: "*";
@@ -663,6 +546,11 @@
   inherits: false;
   initial-value: 0 0 #0000;
 }
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -671,13 +559,8 @@
       --tw-rotate-z: initial;
       --tw-skew-x: initial;
       --tw-skew-y: initial;
-      --tw-border-style: solid;
-<<<<<<< HEAD
-=======
       --tw-leading: initial;
       --tw-font-weight: initial;
->>>>>>> headings
-      --tw-outline-style: solid;
       --tw-shadow: 0 0 #0000;
       --tw-shadow-color: initial;
       --tw-shadow-alpha: 100%;
@@ -692,6 +575,7 @@
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-border-style: solid;
     }
   }
 }
