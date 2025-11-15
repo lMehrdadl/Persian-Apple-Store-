@@ -6,7 +6,8 @@
     --color-category: #747474;
     --color-icons: #171717;
     --drop-shadow-xl: 0px 0px 19.6px -5px #0000001A;
-
+    --font-adlam: adlam;
+    --breakpoint-dm: 800px;
 } 
 
 
